@@ -1,0 +1,12 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/sys_preferences">
+	    <ListPreference
+			android:key="data_source"
+			android:title="@string/data_source"
+			android:summary="选择程序所用到的数据源"
+			android:entries="@array/data_souce_txt"
+			android:entryValues="@array/data_souce_values"
+			android:dialogTitle="选择数据源" />
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screens >
+    <screen code="1" classname="cc.binfen.android.member.MainScreenModule" /> 
+    <screen code="3" classname="cc.binfen.android.member.BusinessPromoteDetailModule" />
+    <screen code="4" classname="cc.binfen.android.member.NearbyModule" />
+    <screen code="5" classname="cc.binfen.android.member.CardPromoteSearchModule" />
+    <screen code="6" classname="cc.binfen.android.member.HotCardModule" />
+    <screen code="7" classname="cc.binfen.android.member.ShoppingStreetModule" />
+    <screen code="8" classname="cc.binfen.android.member.ShoppingCenterListModule" />
+    <screen code="9" classname="cc.binfen.android.member.ShoppingCenterShopslistModule" />
+    <screen code="10" classname="cc.binfen.android.member.DistrictModule" />
+    <screen code="11" classname="cc.binfen.android.member.DistrictPromoteModule" />
+    <screen code="12" classname="cc.binfen.android.member.MetroModule" />
+    <screen code="13" classname="cc.binfen.android.member.MetroMapModule" /> 
+    <screen code="16" classname="cc.binfen.android.member.SearchModule" />
+    <screen code="17" classname="cc.binfen.android.member.SearchBusinessListModule" />
+    <screen code="18" classname="cc.binfen.android.member.NewEventsModule" />
+    <screen code="19" classname="cc.binfen.android.member.MywalletModule" />
+    <screen code="20" classname="cc.binfen.android.member.MyCardModule" />
+    <screen code="21" classname="cc.binfen.android.member.MyBizCardModule" />
+    <screen code="22" classname="cc.binfen.android.member.Add_firstcardModule" />
+    <screen code="23" classname="cc.binfen.android.member.BusinessMessageErrorModule" />
+    <screen code="24" classname="cc.binfen.android.member.LatestSkim_Module" />
+    <screen code="25" classname="cc.binfen.android.member.NearbyPromoteCommentModule" /> 
+    <screen code="27" classname="cc.binfen.android.member.NearbyPromoteCommentPictureEditModule" />
+    <screen code="28" classname="cc.binfen.android.member.Main_VipCardsModule" />
+    <screen code="29" classname="cc.binfen.android.member.MoreModule" />
+    <screen code="30" classname="cc.binfen.android.member.NewEventsDetailModule" />
+    <screen code="33" classname="cc.binfen.android.member.CommentListModule" />
+    <screen code="34" classname="cc.binfen.android.member.LatestCollectModule" />
+    <screen code="35" classname="cc.binfen.android.member.FeedbackModule" />
+    <screen code="36" classname="cc.binfen.android.member.MyBizCardEditModule" />  
+</screens>

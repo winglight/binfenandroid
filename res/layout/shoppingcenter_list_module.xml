@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/main_page_color"  >
+
+    <!-- 列表部分 -->
+
+        <ListView
+            android:id="@+id/center_list_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/center_listview" />
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/business_listview_divider" />
+
+</LinearLayout>

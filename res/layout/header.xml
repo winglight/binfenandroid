@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_bg"
+    android:gravity="center" 
+    android:padding="10dp"
+    android:id="@+id/headerView">
+		<Button
+            android:id="@+id/returnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/return_bg" 
+            android:text="@string/back"
+            android:layout_alignParentLeft="true"
+            android:textColor="#DBDBDB"/>
+		
+		<TextView
+            android:id="@+id/appTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/title_icon"/>
+
+        <TextView
+            android:id="@+id/headTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="" 
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/myWalletBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_card_bg" 
+            android:text="@string/myCards"
+            android:layout_alignParentRight="true"
+             android:textColor="#DBDBDB" />
+</RelativeLayout>

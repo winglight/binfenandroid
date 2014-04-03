@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/diy_listview">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <!-- 商铺名称 -->
+		<TextView
+            android:id="@+id/businessNameTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/business_listview_businessName_txtColor"/>
+		<!-- 星级 -->
+        <RatingBar
+            android:id="@+id/starsRatingBar"
+            style="@style/diyRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+	        android:isIndicator="true"
+	        android:focusable="false"
+	        android:focusableInTouchMode="false"
+	        android:numStars="5"/>        
+	</LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <!-- 商铺描述 -->
+        <TextView
+            android:id="@+id/businessDescribeTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" 
+            android:textColor="@color/business_listview_secondRow_txtColor"
+			android:textSize="12sp"
+        android:lineSpacingExtra="4dp"
+			android:layout_weight="1"
+			android:maxLines="3"
+			android:gravity="left"/>
+        <!-- 距离 -->
+        <TextView
+            android:id="@+id/distanceTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#bbbbbb"
+			android:textSize="12sp"/>
+    </LinearLayout>        
+    
+			<RelativeLayout
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content">
+			    <TextView 
+			        android:id="@+id/shop_content_ellipsis_txv"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_toRightOf="@id/allcomment_content_pad1"
+			        android:text="@string/allcomment_content_ellipsis"
+            android:textColor="@color/business_listview_secondRow_txtColor"/>
+			    <Button 
+			        android:id="@+id/shop_content_more_btn"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_gravity="right"
+			        android:focusable="false"
+    	   			android:textColor="@color/black"/>
+			</RelativeLayout>
+	<LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <!-- 打折数 -->
+        <TextView
+            android:id="@+id/discountTxt"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:background="@color/nearby_stores_listview_discount_txtColor"
+            android:textColor="@color/white"
+            android:textSize="12sp" 
+            android:padding="4dp"/>
+		<!-- 打折卡 -->
+        <TextView
+            android:id="@+id/cardsNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:layout_marginLeft="6dp"
+            android:textSize="12sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/business_listview_discountCard_txtColor"/>
+	</LinearLayout>
+</LinearLayout>        

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     	xmlns:android="http://schemas.android.com/apk/res/android"
+     	android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="8dp">
+        <cc.binfen.android.customview.ShopListView
+            android:id="@+id/latestskimListView"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+            android:scrollingCache="false"
+            style="@style/business_listview"> 
+        </cc.binfen.android.customview.ShopListView>
+	   	<TextView 
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="1px"
+	   	    android:background="@color/business_listview_divider"/>
+  </LinearLayout>

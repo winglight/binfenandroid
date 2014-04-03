@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="#F2F2F2" > 
+    <TextView 
+    android:id="@+id/add_firstcard_title"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:textColor="#016401"
+    android:textSize="25sp"
+    android:padding="20dp" 
+    android:text="@string/add_firstcard"/> 
+	<TabHost
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4">
+     <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+     <TabWidget
+     	android:id="@android:id/tabs"
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     	style="@style/map_tabwidget_title" />
+     	<FrameLayout
+     	android:id="@android:id/tabcontent"
+     	android:layout_width="fill_parent"
+     	android:layout_height="fill_parent"
+     	/>  
+     </LinearLayout>
+</TabHost>
+	 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="#020202"
+    android:padding="5dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/add_firstcard_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_cardfooter"
+        android:paddingTop="15dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/cardcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="#045304" />
+     
+	<TextView
+        android:id="@+id/cardType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_cardcount"
+        android:textColor="#FFFFFF" /> 
+    <Button
+        android:id="@+id/finish_add_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addalready"
+        android:text="@string/finish_addcard"
+        android:layout_marginLeft="35dp"
+        android:textColor="#000000" />
+</LinearLayout>
+  
+</LinearLayout>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    android:background="#F2F2F2" >
+
+    <TextView
+        android:id="@+id/feedback_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/feedback_title" /> 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/feedBack_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_name"
+            android:textSize="18sp" 
+            android:textColor="#212121" />
+
+        <EditText
+            android:id="@+id/feedback_name_input"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/global_edittext_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/feedBack_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_zh"
+            android:textColor="#212121"
+            android:textSize="18sp" /> 
+        <EditText
+            android:id="@+id/feedback_email_input"
+            android:layout_width="222dp" 
+            android:layout_height="wrap_content" 
+            android:inputType="textEmailAddress"
+            android:background="@drawable/global_edittext_bg"  />
+    </LinearLayout>
+ 
+    <EditText
+        android:id="@+id/feedback_content"
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp"
+        android:background="@drawable/global_textview_bg"
+        android:hint="@string/feedback_content_warn"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:inputType="textMultiLine" 
+        android:textSize="18sp"
+        android:layout_marginTop="15dp">
+ 		
+    </EditText> 
+    <Button
+        android:id="@+id/feedback_commit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="15dp"
+        android:background="@drawable/global_btn_small_bg"
+        android:text="@string/nearbypromotecomment_commit" />
+ 
+</LinearLayout> 

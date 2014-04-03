@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/main_page_color">   
+    <!--滚动框-->
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <cc.binfen.android.customview.wheel.WheelView android:id="@+id/searchBusinessListAreaWheel"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"/>
+	    <cc.binfen.android.customview.wheel.WheelView android:id="@+id/searchBusinessListConsumeTypeWheel"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"/>
+	    <cc.binfen.android.customview.wheel.WheelView android:id="@+id/searchBusinessListCardWheel"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"/>
+    </LinearLayout>
+    <!-- 排序 -->
+    <LinearLayout 
+        android:orientation="horizontal"
+	    style="@style/sort_LinearLayout">
+	    <TextView android:id="@+id/sortBtn"
+	        android:text="@string/sort"
+	        android:background="@drawable/sort_arrow"
+	        android:textColor="#6E7B8B"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center_vertical"/>	
+    </LinearLayout> 
+	<!-- 商铺列表 -->
+    <cc.binfen.android.customview.ShopListView 
+        android:id="@+id/searchBusinessListView"
+	        android:layout_width="fill_parent"
+		 	android:layout_height="wrap_content"
+		 	style="@style/business_listview">
+    	
+    </cc.binfen.android.customview.ShopListView>
+    
+	   	<TextView 
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="1px"
+	   	    android:background="@color/business_listview_divider"/>
+</LinearLayout>  

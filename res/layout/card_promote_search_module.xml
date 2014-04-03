@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/main_page_color"> 
+    <!-- query condition view-->
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <cc.binfen.android.customview.wheel.WheelView android:id="@+id/cardSearchAreaWheel"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"/>
+	    <cc.binfen.android.customview.wheel.WheelView android:id="@+id/cardSearchConsumeTypeWheel"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"/>
+	    <cc.binfen.android.customview.wheel.WheelView android:id="@+id/cardSearchCardWheel"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"/>
+    </LinearLayout>    
+    <!-- 排序 -->
+    <LinearLayout 
+        android:orientation="horizontal"
+	    style="@style/sort_LinearLayout">
+	    <TextView android:id="@+id/sortBtn"
+	        android:text="@string/sort"
+	        android:background="@drawable/sort_arrow"
+	        android:textColor="#6E7B8B"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center_vertical"/>	
+    </LinearLayout>
+    <!-- query result view -->
+    <cc.binfen.android.customview.ShopListView 
+        android:id="@+id/cardSearchStoreListView"
+        	android:layout_width="fill_parent"
+ 			android:layout_height="wrap_content"
+ 			style="@style/business_listview">
+    	
+    </cc.binfen.android.customview.ShopListView>
+	   	<TextView 
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="1px"
+	   	    android:background="@color/business_listview_divider"/>
+</LinearLayout>  

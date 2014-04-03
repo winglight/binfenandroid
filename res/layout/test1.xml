@@ -1,0 +1,303 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/company_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/company_main"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="3dp"
+        android:background="#B8B8B8" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#DEDEDE"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/company_site"
+        android:textColor="@color/black"
+        android:textSize="16sp" /> 
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#B8B8B8" /> 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/company_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_address"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:text="@string/company_address_content"
+            android:textColor="#818181"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city_post"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city_post_number"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="@string/city_post_number"
+            android:textColor="#818181"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/phone_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_main"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="@string/phone_number"
+            android:textColor="#818181"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/fax"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/fax_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fax_number"
+            android:textColor="#818181"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- shanghai -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="3dp"
+        android:background="#B8B8B8" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#DEDEDE"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/company_site_shanghai"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#B8B8B8" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/company_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_address"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="@string/shanghai_address"
+            android:textColor="#818181" 
+            android:textSize="14sp" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shanghai_tel"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="@string/shanghai_telnum"
+            android:textColor="#818181"
+            android:textSize="14sp" />
+    </LinearLayout>
+           <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/company_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fax"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="@string/shanghai_faxnum"
+            android:textColor="#818181"
+            android:textSize="14sp" />
+    </LinearLayout>
+    
+        <!-- zhuhai -->
+        
+        
+         <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="3dp"
+        android:background="#B8B8B8" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#DEDEDE"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/company_zhuhai"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#B8B8B8" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/company_address"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:text="@string/zhuhai_address"
+            android:textColor="#818181"
+            android:textSize="14sp" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shanghai_tel"
+            android:textColor="#818181"
+            android:paddingLeft="4dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="@string/zhuhai_tel"
+            android:textColor="#818181"
+            android:textSize="14sp" />
+    </LinearLayout>
+    
+         <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="3dp"
+        android:background="#B8B8B8" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#DEDEDE"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/hotline_jixiangtong"
+        android:textColor="@color/black" 
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#B8B8B8" />
+        
+         
+    </LinearLayout>
+ 

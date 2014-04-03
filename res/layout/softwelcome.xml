@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"  
+    android:padding="10dp" 
+    android:layout_height="300dp"
+    android:layout_width="350dp"
+    android:background="#FFFFFF" >  
+ <!--  <TextView 
+      android:id="@+id/welcomecontent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="top"
+      android:text="@string/welcomecontent"/>  --> 
+
+	<LinearLayout
+	    android:layout_width="190dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	 
+    <CheckBox
+         android:id="@+id/warnselect"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:paddingRight="20dp" />
+    <TextView 
+	     android:id="@+id/warntext"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="@string/warntext"/> 
+	</LinearLayout>
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center" 
+       android:orientation="horizontal" > 
+      <Button
+        android:id="@+id/selectclose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/close" /> 
+ 
+   </LinearLayout>   
+	  
+</LinearLayout>

@@ -1,0 +1,543 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fadingEdge="none"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/more_modulelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#DEDEDE"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/morelistlinerlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:paddingTop="3dp" >
+
+            <!--
+               <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#B8B8B8" />
+            -->
+
+            <TextView
+                android:id="@+id/playICARDtxt"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:background="#DEDEDE"
+                android:drawableRight="@drawable/detailsmore"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/playall"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#B8B8B8" />
+            <!-- 反馈 -->
+
+            <TextView
+                android:id="@+id/feedbackLinertxt"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:background="#DEDEDE"
+                android:drawableRight="@drawable/detailsmore"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/feedback"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#B8B8B8" />
+            </LinearLayout>
+            <!-- about us -->
+
+            <TextView
+                android:id="@+id/aboutusmoretxt"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:background="#DEDEDE"
+                android:drawableRight="@drawable/detailsmore"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/aboutus"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#B8B8B8" />
+            <!-- contact us -->
+
+            <TextView
+                android:id="@+id/contactusTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:background="#DEDEDE"
+                android:drawableRight="@drawable/detailsmore"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/contactus"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#B8B8B8" />
+            <!-- share the soft -->
+
+            <TextView
+                android:id="@+id/sharesoftmoreTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:background="#DEDEDE"
+                android:drawableRight="@drawable/detailsmore"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/sharesoftmore"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="#B8B8B8" />
+        <!-- about us -->
+
+        <LinearLayout
+            android:id="@+id/about_us_linerlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/china_rewards_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/company_website"
+                android:textColor="#818181" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:background="@color/aboutus_divider" />
+
+            <TextView
+                android:id="@+id/aboutus_appvertion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:textColor="@color/aboutus_imvip4andr"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:text="@string/aboutus_words_2"
+                android:textColor="@color/aboutus_copyright"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:text="@string/aboutus_words_3"
+                android:textColor="@color/aboutus_copyright"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:paddingTop="18dp"
+                android:text="@string/aboutus_words_4"
+                android:textColor="@color/aboutus_imvip4andr"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/aboutus_word5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="@string/aboutus_words_5"
+                android:textColor="@color/aboutus_copyright"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="20dp" 
+                android:background="@color/aboutus_divider"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/aboutus_words_8"
+                android:textColor="@color/aboutus_imvip4andr"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="8dp"
+                android:text="@string/aboutus_words_9"
+                android:textColor="@color/aboutus_imvip4andr"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- contact us -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/contact_us_linerlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#F2F2F2"
+            android:orientation="vertical"
+            android:paddingTop="4dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/company_main"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/company_main"
+                android:textColor="@color/black"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="3dp"
+                android:background="#B8B8B8" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="#DEDEDE"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/company_site"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#B8B8B8" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/company_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/company_address"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:text="@string/company_address_content"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/city_post"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/city_post_number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:text="@string/city_post_number"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/phone_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/phone_main"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/phone_number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:text="@string/phone_number"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/fax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/fax"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/fax_number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fax_number"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- shanghai -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="3dp"
+                android:background="#B8B8B8" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="#DEDEDE"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/company_site_shanghai"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#B8B8B8" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/company_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/company_address"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:text="@string/shanghai_address"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/shanghai_tel"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:text="@string/shanghai_telnum"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/company_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/fax"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:text="@string/shanghai_faxnum"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- zhuhai -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="3dp"
+                android:background="#B8B8B8" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="#DEDEDE"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/company_zhuhai"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#B8B8B8" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/company_address"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:text="@string/zhuhai_address"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="@string/shanghai_tel"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:text="@string/zhuhai_tel"
+                    android:textColor="#818181"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="3dp"
+                android:background="#B8B8B8" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:background="#DEDEDE"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/hotline_jixiangtong"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#B8B8B8" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

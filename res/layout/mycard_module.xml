@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/wallet_bg">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal"
+            android:gravity="right" >
+            <Button
+                android:id="@+id/is_addcardBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/add_card"/>
+        </LinearLayout> 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp" 
+            android:fadingEdge="none">
+
+	         <ListView
+	             android:id="@+id/mycardlist"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"  
+	             android:divider="@android:color/transparent"
+	             android:alwaysDrawnWithCache="false"
+	             android:scrollingCache="false"
+	             android:fadingEdge="none" 
+	             android:scrollbars="none"/>
+ 
+        </LinearLayout>          
+</LinearLayout>

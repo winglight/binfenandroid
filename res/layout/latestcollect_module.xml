@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     	xmlns:android="http://schemas.android.com/apk/res/android"
+     	android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    style="@style/main_page_color">
+	    <LinearLayout android:id="@+id/collectTitleButtonLayout"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	     android:background="@drawable/sort_background"
+	    android:gravity="center_vertical">
+	    <CheckBox 
+	        android:id="@+id/collect_promote_allitem"
+	     android:layout_width="40dp"
+         android:layout_height="40dp" 
+         android:layout_marginLeft="10dp"
+         android:layout_gravity="center_vertical"
+         android:checked="false" />
+	    <TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+	    android:text="@string/select_allpromote"
+	    android:textColor="@color/black"  />
+	    <Button
+	        android:id="@+id/delete_selected_item"
+	        android:layout_width="wrap_content"
+	        android:layout_height="36dp"
+	        android:layout_marginLeft="55dp"
+	        android:background="@android:drawable/btn_default_small"
+         android:layout_gravity="center_vertical"
+         android:layout_marginTop="2dp"
+	        android:text="@string/delete_selected" />
+
+	    </LinearLayout> 
+        <ListView android:id="@+id/latestcollectListView"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"> 
+        </ListView>
+  </LinearLayout> 

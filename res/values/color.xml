@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_transparent_00">#00000000</color>
+    <color name="background_parent_01">#95BA46</color>
+    <color name="background_parent_02">#FFFFFF</color>
+    <color name="background_parent_03">#D4D4D4</color> 
+    <color name="background_parent_04">#EBEBEB</color>
+    <color name="background_parent_05">#FFFFFF</color>
+    <color name="show_childCard">#D1D1D1</color>
+    <color name="common_background">#F2F2F2</color> 
+    
+    <!-- by vints -->
+    <color name="zone_bg">#D0D0D0</color>
+    <color name="metro_tab">#FCB303</color>
+    <color name="metro_tab_station_bg">#F3F3F3</color>
+    <color name="district_background">#DEDEDE</color>
+    <color name="district_parentname_background">#ECECEC</color>
+    <color name="district_nametable_background">#E4E4E4</color>
+    <color name="shoppingstreet_promotenum_text">#FF6000</color>
+    <color name="shoppingcenter_listview_background">#F8F8F8</color>
+    <color name="shoppingcenter_item_background">#F8F8F8</color>
+    <color name="shoppingcenter_item_desc">#818181</color>
+    <color name="shoppingcenter_listview_divider">#B8B8B8</color>
+    <color name="comment_listview_divider">#DEDEDE</color>
+    <color name="comment_item2_background">#DFDFDF</color>
+    <color name="comment_item1_background">#F8F8F8</color>
+    <color name="comment_background">#F2F2F2</color>
+    <color name="comment_tag_text">#212121</color>
+    <color name="comment_graytag_text">#818181</color>
+    <color name="comment_datetime_text">#BFBFBF</color>
+    <color name="comment_content_text">#212121</color>
+    <color name="district_search_btn_text">#027802</color>
+    <color name="district_zone_text">#333333</color>
+    <color name="shoppingstreet_streetname_text">#212121</color>
+    <color name="shoppingstreet_street_detail_text">#818181</color>
+    <color name="page_shoppingstreet">#F3F3F3</color>
+    <color name="metro_cityname_text">#212121</color>
+    <color name="metromap_stationname_text">#818181</color>
+    <color name="metromap_stationline_name_text">#212121</color>
+    <color name="metro_stationline_text">#EBEBEB</color>
+    <color name="metro_stationline_text_touming">#5AEBEBEB</color>
+    <color name="commemt_content_input_background">#FBFBFB</color>
+    <color name="district_parent_background">#E1E1E1</color>
+    <color name="district_child_background">#F2F2F2</color>
+    <color name="district_child_text">#818181</color>
+    <color name="aboutus_imvip4andr">#333333</color>
+    <color name="aboutus_copyright">#818181</color>
+    <color name="aboutus_bluetext">#33698D</color>
+    <color name="aboutus_divider">#D3D3D3</color>
+    
+    <color name="listview_bg">#EEEEEE</color>
+    <color name="listview_menu_bg">#DEDEDE</color>
+    <color name="listview_pressed_bg">#FEFFDD</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <color name="metro_line_selected">#000000</color>
+    <color name="metro_line_unselected">#0000004C</color>
+   
+    
+    <!-- by sunny -->
+    <color name="page_background">#F2F2F2</color>
+    <color name="sort_LinearLayout_background">#D8D8D8</color>
+    <color name="business_listview_divider">#DEDEDE</color>
+    <color name="business_promote_detail_businessMessage_LinearLayout_background">#DEDEDE</color>
+    <color name="business_promote_detail_businessMessage_LinearLayout_TextView_textColor">#212121</color>
+    <color name="business_promote_detail_businessPropertyTxt_TextView_textColor">#808080</color>
+    <color name="business_promote_detail_businessPropertyValue_TextView_textColor">#434343</color>
+    <color name="promote_ListView_Item_background">#EBEBEB</color>
+    <color name="promote_ListView_discount_txtColor">#FF6000</color>
+    <color name="promote_ListView_button_txtColor">#2A2A2A</color>
+    <color name="promote_ListView_ding_txtColor">#9ACD32</color>
+    <color name="promote_ListView_cai_txtColor">#EE7621</color>
+    <color name="dialog_title_txtColor">#045304</color>
+    <color name="business_listview_businessName_txtColor">#212121</color>
+    <color name="business_listview_secondRow_txtColor">#818181</color>
+    <color name="business_listview_discountCard_txtColor">#3F3F3F</color>
+    <color name="business_message_error_page_title_txtColor">#818181</color>
+    <color name="business_message_error_page_content_txtColorHint">#424242</color>
+    <color name="business_message_error_page_email_txtColorHint">#A9A9A9</color>
+    <color name="error_layout_cancel_txtColor">#080808</color>
+    <color name="nearby_stores_listview_discount_txtColor">#40A440</color>
+    <color name="newEvents_bgcolor">#6E6E6E</color>
+    <color name="newEvents_advert_bgcolor">#CBCBCB</color>
+    <color name="newEvents_advert_txtColor">#758E5E</color>
+</resources> 

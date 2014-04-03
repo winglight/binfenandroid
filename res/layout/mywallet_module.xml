@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wallet_bg"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/costinall" />
+
+            <TextView
+                android:id="@+id/tvcost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip"
+                android:textColor="#EC810F"
+                android:textSize="12dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/costsave" />
+
+            <TextView
+                android:id="@+id/tvsave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip"
+                android:textColor="#EC810F"
+                android:textSize="12dip" />
+        </LinearLayout>
+        <LinearLayout
+          android:id="@+id/vipCardlayout" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="horizontal" 
+          android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1dp" 
+            android:layout_marginBottom="5dp"
+            android:gravity="bottom" >
+            <ImageView
+             android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_01" /> 
+		<LinearLayout 
+		  android:layout_width="0dp"
+          android:layout_height="wrap_content" 
+          android:layout_weight="1"
+          android:orientation="vertical" > 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wallettab_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/mycards" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/myCards"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/vipcardcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#045304" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:paddingRight="11dp" >
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/details" />
+            </LinearLayout>
+        </LinearLayout>  
+         <ImageView
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:scaleType="fitXY"
+             android:background="@drawable/chacao_02" 
+             android:layout_marginBottom="3dp"/>
+        </LinearLayout> 
+             <ImageView
+              android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_03" /> 
+        </LinearLayout>
+
+      
+
+        <!--
+         <HorizontalScrollView
+            android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:scrollbars="none"
+		    android:paddingTop="5dp" >
+		 <LinearLayout
+		    android:orientation="horizontal"
+            android:id="@+id/mywalletCardScrollView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"  
+            android:background="#F2F2F2" /> 
+          </HorizontalScrollView>
+        -->
+
+        <LinearLayout 
+            android:id="@+id/mybizcardlayout"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="horizontal" 
+          android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1dp" 
+            android:layout_marginBottom="5dp"
+            android:gravity="bottom" >
+            <ImageView
+             android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_01" /> 
+		<LinearLayout 
+		  android:layout_width="0dp"
+          android:layout_height="wrap_content" 
+          android:layout_weight="1"
+          android:orientation="vertical" > 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wallettab_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/mybizcard" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:gravity="center_vertical"
+                android:text="@string/mybizcard"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+          
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:paddingRight="11dp" >
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/details" />
+            </LinearLayout>
+        </LinearLayout>  
+         <ImageView
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:scaleType="fitXY"
+             android:background="@drawable/chacao_02" 
+             android:layout_marginBottom="3dp"/>
+        </LinearLayout> 
+             <ImageView
+              android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_03" /> 
+        </LinearLayout>
+
+        
+		<LinearLayout 
+		  android:id="@+id/collectpromotelayout"  
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="horizontal" 
+          android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1dp" 
+            android:layout_marginBottom="5dp"
+            android:gravity="bottom" >
+            <ImageView
+             android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_01" /> 
+		<LinearLayout 
+		  android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1" 
+          android:orientation="vertical" > 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wallettab_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/collectpromote" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:gravity="center_vertical"
+                android:text="@string/collectpromote"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/collectcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#045304" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:paddingRight="11dp" >
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/details" />
+            </LinearLayout>
+        </LinearLayout>  
+         <ImageView
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:scaleType="fitXY"
+             android:background="@drawable/chacao_02" 
+             android:layout_marginBottom="3dp"/>
+        </LinearLayout> 
+             <ImageView
+              android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_03" /> 
+        </LinearLayout>
+
+        <LinearLayout
+          android:id="@+id/latestskimlayout" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="horizontal" 
+          android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1dp" 
+            android:layout_marginBottom="5dp"
+            android:gravity="bottom" >
+            <ImageView
+             android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_01" /> 
+		<LinearLayout 
+		  android:layout_width="0dp"
+          android:layout_height="wrap_content" 
+          android:layout_weight="1"
+          android:orientation="vertical" > 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wallettab_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/latestskim" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:gravity="center_vertical"
+                android:text="@string/latest_skim_title"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/vipcardcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#818181" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:paddingRight="11dp" >
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/details" />
+            </LinearLayout>
+        </LinearLayout>  
+         <ImageView
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:scaleType="fitXY"
+             android:background="@drawable/chacao_02" 
+             android:layout_marginBottom="3dp"/>
+        </LinearLayout> 
+             <ImageView
+              android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_03" /> 
+        </LinearLayout>
+
+        
+      <LinearLayout 
+          android:id="@+id/mycommentlayout"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="horizontal" 
+          android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1dp" 
+            android:layout_marginBottom="5dp"
+            android:gravity="bottom" >
+           <!--  <ImageView
+             android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_01" />  -->
+		<LinearLayout 
+		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:orientation="vertical" > 
+       <!--  <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wallettab_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/mycommentreply" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:gravity="center_vertical"
+                android:text="@string/mycomment_title"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/mycommentcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#818181" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:paddingRight="11dp" >
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/details" />
+            </LinearLayout>
+        </LinearLayout>  -->   
+         <!--  <ImageView
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:scaleType="fitXY"
+             android:background="@drawable/chacao_02" 
+             android:layout_marginBottom="3dp"/> -->
+        </LinearLayout> 
+            <!--  <ImageView
+              android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/chacao_03" />  -->
+        </LinearLayout>
+ 
+        
+        <!--
+        <LinearLayout
+            android:id="@+id/newactivitylayout"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp" 
+            android:orientation="horizontal"
+            android:padding="10dp"          
+            android:background="#DEDEDE" 
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp" 
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/newactivity" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:gravity="center_vertical"
+                android:text="@string/latestactivity"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+            <TextView
+		        android:id="@+id/newactivitycount"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:textColor="#818181" />
+		 <LinearLayout
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="3"
+			    android:gravity="right"
+			    android:paddingRight="11dip">
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp" 
+                android:src="@drawable/details" />
+           </LinearLayout>
+        </LinearLayout>
+        <LinearLayout 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+           <View 
+               android:layout_width="fill_parent"
+               android:layout_height="1dp"
+               android:background="#B8B8B8"/>
+           </LinearLayout>
+        -->
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <LinearLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+    	<TextView 
+    	    android:id="@+id/allcomment_nickname_txv"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textColor="@color/comment_graytag_text"/>
+    	<TextView 
+    	    android:id="@+id/allcomment_date_txv"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="right"
+    	    android:textColor="@color/comment_datetime_text"/>
+    
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+   		android:layout_marginLeft="5dp"
+   		android:layout_marginBottom="10dp">
+	    <ImageView 
+	        android:id="@+id/allcomment_picture_imgv"
+	        android:layout_width="116dp"
+	        android:layout_height="90dp"/>
+	    
+		<LinearLayout
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="8dp"
+	    android:orientation="vertical">
+			<!-- 用了什么卡 -->
+			<LinearLayout
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    	
+			    <TextView android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/allcomment_card"
+    	    android:textColor="@color/comment_graytag_text"/>
+			    <TextView 
+			        android:id="@+id/allcomment_cardname_txv"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+    	    android:textColor="@color/black"/>
+			</LinearLayout>
+			<!-- 花了多少钱 -->
+			<LinearLayout
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    	
+			    <TextView android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/allcomment_pay"
+    	    android:textColor="@color/comment_graytag_text"/>
+			    <TextView 
+			        android:id="@+id/allcomment_moneytaked_txv"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+    	    android:textColor="@color/black"/>
+			</LinearLayout>
+			<!-- 点评内容 -->
+			<LinearLayout
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    	
+			    <TextView android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/allcomment_content"
+    	    android:textColor="@color/comment_graytag_text"/>
+			    <TextView 
+			        android:id="@+id/allcomment_content_txv"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:maxLines="3"
+    	    android:textColor="@color/black"/>
+			</LinearLayout>
+			<RelativeLayout
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content">
+			    <TextView 
+			        android:id="@+id/allcomment_content_pad1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/allcomment_content"
+			        android:visibility="invisible"
+    	    android:textColor="@color/black"/>
+			    <TextView 
+			        android:id="@+id/allcomment_content_ellipsis_txv"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_toRightOf="@id/allcomment_content_pad1"
+			        android:text="@string/allcomment_content_ellipsis"
+    	    android:textColor="@color/black"/>
+			    <Button 
+			        android:id="@+id/allcomment_content_more_btn"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_gravity="right"
+    	    android:textColor="@color/black"/>
+			</RelativeLayout>
+	    
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

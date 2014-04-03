@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/page_background">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/comment_item2_background">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/comment_tag_text"
+            android:text="@string/nearbypromotecomment_nickname"/>
+        <EditText 
+            android:id="@+id/nearbypromotecomment_nickname_editxt"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:ems="9"
+            android:singleLine="true"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/comment_graytag_text"
+            android:text="@string/nearbypromotecomment_bitian"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/comment_item1_background">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/comment_tag_text"
+            android:text="@string/nearbypromotecomment_whatcard"/>
+	    <HorizontalScrollView 
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content">
+		    <LinearLayout
+		        android:id="@+id/nearbypromotecomment_cards"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal">
+		        
+		    </LinearLayout>
+		    
+	    </HorizontalScrollView>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/comment_item2_background">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/comment_tag_text"
+            android:text="@string/nearbypromotecomment_howmuchuse"/>
+        <EditText 
+            android:id="@+id/nearbypromotecomment_howmuchuse_edtxt"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:maxHeight="18dp"
+            android:numeric="integer"
+            android:maxLength="4"
+            android:singleLine="true"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/comment_tag_text"
+            android:text="@string/nearbypromotecomment_yuan"/>
+        
+    </LinearLayout>
+    <RelativeLayout 
+        android:id="@+id/nearbypromotecomment_uploadrlyout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/comment_item2_background">
+        <TextView 
+            android:id="@+id/promotecomment_picupload_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:textColor="@color/comment_tag_text"
+            android:text="@string/nearbypromotecomment_picupload"/>
+
+        <TextView
+            android:id="@+id/promotecomment_picupload_picname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/promotecomment_picupload_title"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:textColor="@color/comment_graytag_text"
+            android:ems="10"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/promotecomment_picupload_cancelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:textColor="@color/comment_tag_text"
+            android:text="@string/nearbypromotecomment_cancel"
+            android:visibility="gone" />
+        <ImageView 
+            android:id="@+id/promotecomment_picupload_right"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible"
+            android:src="@drawable/arrow"/>
+        
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/commemt_content_input_background">
+        
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <EditText 
+            android:id="@+id/comment_content_editxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top"
+            android:lines="7"
+            android:textSize="14sp"
+            android:textColor="@color/comment_content_text"
+            android:hint="@string/nearbypromotecomment_inputtip"/>
+
+        <TextView
+            android:id="@+id/comment_numlimit_txv"
+            android:layout_width="68dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@id/comment_content_editxt"
+            android:layout_marginLeft="213dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/comment_graytag_text"
+            android:background="@drawable/comment_numlimit_bg" />
+
+        </RelativeLayout>
+        <Button 
+            android:id="@+id/nearbypromotecomment_commitbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/comment_tag_text"
+            android:text="@string/nearbypromotecomment_commit"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>
+</ScrollView>

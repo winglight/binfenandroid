@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="map_tabwidget_title" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="diyRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/diy_ratingbar</item>
+        <item name="android:maxHeight">18dp</item>
+        <item name="android:minHeight">18dp</item>
+    </style>
+	<!-- 页面背景颜色 -->
+    <style name="main_page_color">
+    	<item name="android:background">@color/page_background</item>
+	</style>
+	<!-- 购物街页面背景颜色 -->
+	<style name="shoppingstreet_page_color">
+	    <item name="android:background">@color/page_shoppingstreet</item>
+	</style>
+	<!-- 排序LinearLayout style -->
+	<style name="sort_LinearLayout">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+    	<item name="android:background">@drawable/sort_background</item>
+    	<item name="android:gravity">right</item>
+    	<item name="android:paddingTop">3dp</item>
+    	<item name="android:paddingBottom">3dp</item>
+    	<item name="android:paddingLeft">20dp</item>
+    	<item name="android:paddingRight">5dp</item>
+	</style>
+	<!-- 商铺列表 -->
+	<style name="business_listview" parent="@android:style/Widget.ListView">
+    	<item name="android:divider">@color/business_listview_divider</item>
+    	<item name="android:layout_marginLeft">0dp</item>
+    	<item name="android:layout_marginRight">0dp</item>
+    	<item name="android:fadingEdge">none</item>
+    	<item name="android:footerDividersEnabled">true</item>
+    	<item name="android:dividerHeight">1px</item>
+	</style>
+	<!-- 购物中心列表 -->
+	<style name="center_listview" parent="@android:style/Widget.ListView">
+    	<item name="android:divider">@color/business_listview_divider</item>
+    	<item name="android:layout_marginLeft">0dp</item>
+    	<item name="android:layout_marginRight">0dp</item>
+    	<item name="android:fadingEdge">none</item>
+    	<item name="android:footerDividersEnabled">true</item>
+    	<item name="android:dividerHeight">1px</item>
+	</style>
+	<!-- 商铺优惠详细页面-商铺属性文本 style -->
+	<style name="business_promote_detail_businessPropertyTxt_TextView" parent="@android:style/TextAppearance.Widget.TextView">
+    	<item name="android:layout_width">70dp</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:gravity">right</item>
+    	<item name="android:textColor">@color/business_promote_detail_businessPropertyTxt_TextView_textColor</item>
+    	<item name="android:textSize">14sp</item>
+	</style>
+	<!-- 商铺优惠详细页面-商铺属性值 style -->
+	<style name="business_promote_detail_businessPropertyValue_TextView" parent="@android:style/TextAppearance.Widget.TextView">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">@color/business_promote_detail_businessPropertyValue_TextView_textColor</item>
+    	<item name="android:textSize">14sp</item>
+	</style>
+	<!-- 商铺优惠详细页面-电话、地址、信息报错LinearLayout style -->
+	<style name="business_promote_detail_businessMessage_LinearLayout">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">40dp</item>   	
+    	<item name="android:orientation">horizontal</item>
+    	<item name="android:paddingLeft">10dp</item>
+    	<item name="android:background">@color/business_promote_detail_businessMessage_LinearLayout_background</item>
+    	<item name="android:gravity">center_vertical</item>
+	</style>
+	<!-- 商铺优惠详细页面-电话、地址、信息报错LinearLayout TextView style -->
+	<style name="business_promote_detail_businessMessage_TextView" parent="@android:style/TextAppearance.Widget.TextView">
+    	<item name="android:layout_width">0dp</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:layout_weight">1</item>
+    	<item name="android:layout_gravity">center_vertical</item>
+    	<item name="android:paddingLeft">10dp</item>
+    	<item name="android:textColor">@color/business_promote_detail_businessMessage_LinearLayout_TextView_textColor</item>
+    	<item name="android:textSize">14sp</item>
+	</style>
+	<!-- 优惠list view 优惠属性文本 style -->
+	<style name="promote_ListView_property_TextView" parent="@android:style/TextAppearance.Widget.TextView">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">@color/business_promote_detail_businessPropertyTxt_TextView_textColor</item>
+    	<item name="android:textSize">14sp</item>
+	</style>
+	<!-- 优惠list view 优惠属性值 style -->
+	<style name="promote_ListView_property_value_TextView" parent="@android:style/TextAppearance.Widget.TextView">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">@color/business_promote_detail_businessPropertyValue_TextView_textColor</item>
+    	<item name="android:textSize">14sp</item>
+	</style>
+	<!-- 信息报错页面-错误类型-LinearLayout style -->
+	<style name="error_type_LinearLayout">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">35dp</item>
+    	<item name="android:orientation">vertical</item>
+    	<item name="android:paddingTop">5dp</item>
+    	<item name="android:paddingBottom">5dp</item>
+    	<item name="android:layout_gravity">center_vertical</item>
+    	<item name="android:background">#151515</item>
+	</style>
+	<!-- 信息报错页面-错误类型-TextView style -->
+	<style name="error_type_text" parent="@android:style/TextAppearance.Widget.TextView">
+    	<item name="android:layout_width">250dp</item>
+    	<item name="android:layout_height">35dp</item>
+    	<item name="android:textSize">18sp</item>
+    	<item name="android:layout_marginLeft">10dp</item>
+    	<item name="android:textColor">#FFFFFF</item>
+	</style>
+	<!-- 排序选项 style -->
+	<style name="sort_item">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+    	<item name="android:background">#151515</item>
+    	<item name="android:textSize">18sp</item>
+    	<item name="android:textColor">#FFFFFF</item>
+    	<item name="android:paddingLeft">50dp</item>
+    	<item name="android:paddingRight">50dp</item>
+    	<item name="android:paddingTop">10dp</item>
+    	<item name="android:paddingBottom">10dp</item>
+    	<item name="android:layout_marginTop">1dp</item>
+    	<item name="android:button">@drawable/diy_radiobutton</item>
+	</style>
+	<style name="main_button_text" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">#383838</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+    <!-- 底部按钮文本 -->
+	<style name="footer_button_text" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">#BBBBBB</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+	<!-- 购物中心列表 -->
+	<style name="shoppingcenter_listview" parent="@android:style/Widget.ListView">
+    	<item name="android:divider">@color/shoppingcenter_listview_divider</item>
+    	<item name="android:fadingEdge">none</item>
+    	<item name="android:footerDividersEnabled">true</item>
+    	<item name="android:dividerHeight">1dp</item>
+	</style>
+	<!-- 点评列表 -->
+	<style name="comment_listview" parent="@android:style/Widget.ListView">
+    	<item name="android:divider">@color/business_listview_divider</item>
+    	<item name="android:layout_marginLeft">5dp</item>
+    	<item name="android:layout_marginRight">5dp</item>
+    	<item name="android:fadingEdge">none</item>
+    	<item name="android:footerDividersEnabled">true</item>
+    	<item name="android:dividerHeight">1dp</item>
+	</style>
+	<!-- 一级地区名的样式 -->
+	<style name="district_name" parent="@android:style/TextAppearance.Widget.TextView">
+	    <item name="android:textSize">16sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textColor">#333333</item>
+	</style>
+	<!-- 二级地区名的样式 -->
+	<style name="district_child_name" parent="@android:style/TextAppearance.Widget.TextView">
+	    <item name="android:textSize">14sp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textColor">#818181</item>
+	</style>
+
+</resources>

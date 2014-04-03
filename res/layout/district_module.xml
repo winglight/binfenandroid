@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:background="@color/district_background">
+    
+    <!-- 搜索框 -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/district_search_bg">
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/district_search_bg_big" 
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <EditText 
+            android:id="@+id/edt_serch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:hint="@string/serch_tip"
+            android:textSize="16sp"
+            android:background="@drawable/district_button_background"
+            android:layout_weight="3"/>
+        <Button 
+            android:id="@+id/search_top_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16sp"
+            android:textColor="@color/district_search_btn_text"
+            android:text="@string/serch_btn"
+            android:gravity="right|center_vertical"
+            android:paddingRight="8dp"
+            android:background="@drawable/district_search_background"/>
+        </LinearLayout>
+    </LinearLayout>
+
+	<!-- 列表部分 -->
+   	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+	   	<ExpandableListView
+	   	    android:id="@+id/distr_listview"
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:groupIndicator="@drawable/district_expandable_selector"
+	   	    android:divider="@null"
+	   	    android:childDivider="@null"
+	   	    android:fadingEdge="none"
+	   	    android:scrollingCache="false" >
+	   	</ExpandableListView>
+    </LinearLayout>
+
+    
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/main_page_color" >
+
+    <!-- 广告 -->
+	<ImageView 
+	    android:id="@+id/shoppingCenterBusinessListAdvert"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	
+    <!-- 列表部分 -->
+    <cc.binfen.android.customview.ShopListView
+        android:id="@+id/street_shoplist_shops_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        style="@style/business_listview" />
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="1px"
+	    android:background="@color/business_listview_divider"/>
+
+</LinearLayout>

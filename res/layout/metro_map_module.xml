@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation = "vertical"    
+    android:layout_width = "fill_parent"    
+    android:layout_height = "fill_parent"  
+    android:background="#fff"  
+    android:id = "@+id/metro_map_frmlyout" >    
+   
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+			<!-- <cc.binfen.android.customview.MyScrollView
+	        android:id="@+id/metro_map_scrollvw"
+	        android:layout_width="fill_parent"  
+            android:layout_height = "256dp" >  -->
+	            <ImageView    
+	                android:id = "@+id/metro_map_imgvw"    
+	                android:layout_width = "fill_parent"    
+	                android:layout_height = "300dp"  
+	                android:scaleType="matrix"
+	                />
+	       <!--  </cc.binfen.android.customview.MyScrollView>
+   
+	            <ZoomButton
+	                android:id="@+id/metromap_zoomIn"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:layout_alignBottom="@id/metro_map_scrollvw"
+	                android:src="@drawable/metromap_zoomin" />
+
+	            <ZoomButton
+	                android:id="@+id/metromap_zoomOut"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignBottom="@id/metro_map_scrollvw"
+	                android:layout_toLeftOf="@id/metromap_zoomIn"
+	                android:layout_marginRight="5dp"
+	                android:src="@drawable/metromap_zoomout" /> -->
+
+        </RelativeLayout>
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="3dp" >
+
+        <LinearLayout
+            android:id="@+id/metro_map_tabhostlinlyout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/map_tabwidget_title">
+            </TabWidget>
+
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:fadingEdge="none">
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </FrameLayout> 
+</ScrollView>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout > 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"    
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@drawable/clear_skimall_bg">
+    <!-- title -->
+    <TextView 
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/dialog_title_txtColor"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:text="@string/error_title_txt"/>
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:background="@color/white">
+	    <!-- 优惠信息报错 -->
+	    <LinearLayout android:id="@+id/promoteMessageErrorLayout"
+	        style="@style/error_type_LinearLayout">
+	        <TextView 
+	            android:id="@+id/promoteMessageErrorTxt"
+	            style="@style/error_type_text"/>
+		</LinearLayout>
+		<!-- 电话错误 -->
+	    <LinearLayout android:id="@+id/telephoneErrorLayout" 
+	        android:layout_marginTop="1dp"
+	        style="@style/error_type_LinearLayout">
+	        <TextView 
+	            android:id="@+id/telephoneErrorTxt" 
+	            style="@style/error_type_text"/>
+		</LinearLayout>
+		<!-- 地址错误 -->
+	    <LinearLayout android:id="@+id/addressErrorLayout" 
+	        android:layout_marginTop="1dp"
+	        style="@style/error_type_LinearLayout">
+	        <TextView 
+	            android:id="@+id/addressErrorTxt" 
+	            style="@style/error_type_text"/>
+		</LinearLayout>
+		<!-- 门店信息、图片错误 -->
+	    <LinearLayout android:id="@+id/photoErrorLayout" 
+	        android:layout_marginTop="1dp"
+	        style="@style/error_type_LinearLayout">
+	        <TextView 
+	            android:id="@+id/photoErrorTxt"
+	            style="@style/error_type_text"/>
+		</LinearLayout>
+		<!-- 其他-->
+	    <LinearLayout android:id="@+id/otherErrorLayout"
+	        android:layout_marginTop="1dp"
+	        style="@style/error_type_LinearLayout">
+	        <TextView 
+	            android:id="@+id/otherErrorTxt"
+	            style="@style/error_type_text"/>
+		</LinearLayout>
+	</LinearLayout>
+	<!-- 取消按钮 -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#C2C2C2"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/error_layout_cancel_txtColor"
+        android:textSize="20sp"
+        android:id="@+id/errorCancelTxt"
+        android:text="@string/cancel"/>
+</LinearLayout>    

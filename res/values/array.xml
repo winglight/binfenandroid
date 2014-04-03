@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="data_souce_txt">
+		<item>DEV</item>
+		<item>TEST</item>
+		<item>UAT</item>
+		<item>PROD</item>
+	</string-array>
+	<string-array name="data_souce_values">
+		<item>DEV</item>
+		<item>TEST</item>
+		<item>UAT</item>
+		<item>PROD</item>
+	</string-array>
+</resources>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMVIP</string>
+    <string name="card">VIP卡</string>
+    <string name="zone">地区</string>
+    <string name="metro">地铁</string>
+    <string name="hotcard">热门卡</string>
+    <string name="shoppingstreet">购物街</string>
+    <string name="nearby">附近</string>
+    <string name="search">搜索</string>
+    <string name="mywallet">我的钱包</string>
+    <string name="more">更多</string>
+    <string name="shenzhen">深圳市</string>
+    <string name="new_ver_avaliable">发现App有新的版本</string>
+    <string name="check_if_install">是否确定安装</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="home">首页</string>
+    <string name="homeTitle">惠生活，我是VIP</string>
+    <string name="sys_preferences">System Preferences</string> 
+    <string name="data_source">数据源</string>
+    <string name="update_data_source">更新数据库</string> 
+    
+    <!-- by vints --> 
+    <string name="district_title">地区</string> 
+  	<string name="serch_tip">输入地区名</string> 
+  	<string name="serch_btn">搜索</string>    
+  	<string name="district_child_title">%1$s-%2$s</string>
+  	<string name="metro_title">地铁</string>
+  	<string name="shenzhenmetro">深圳地铁</string>
+  	<string name="chakanmetro">线路图</string>
+  	<string name="lookforlist">列表查看</string>
+  	<string name="shoppingstreettop">购物街</string>
+  	<string name="streetenvironment">购物环境：</string>
+  	<string name="streetprice">价格优惠：</string>
+  	<string name="streetvariety">商品种类：</string>
+  	<string name="streetpromotesum">优惠数：</string>
+  	<string name="streetdiscript">%1$s简介：</string>
+  	<string name="streetlist">购物街列表</string>
+  	<string name="streetshopsum">(%1$s)</string>
+  	<string name="streetshoplist_title">%1$s(%2$s)</string>
+  	<string name="nearbypromotecomment">商户点评</string>
+  	<string name="nearbypromotecomment_nickname">昵称：</string>
+  	<string name="nearbypromotecomment_bitian">（必填）</string>
+  	<string name="nearbypromotecomment_whatcard">用了什么VIP卡：</string>
+  	<string name="nearbypromotecomment_howmuchuse">花了多少钱？</string>
+  	<string name="nearbypromotecomment_yuan">元</string>
+  	<string name="nearbypromotecomment_picupload">图片上传</string>
+  	<string name="nearbypromotecomment_inputtip">请输入您的反馈意见（140字以内）</string>
+  	<string name="nearbypromotecomment_commit">提交</string>
+  	<string name="nearbypromotecomment_arrows">></string>
+  	<string name="nearbypromotecomment_chooselocalpic">选择本地图片</string>
+  	<string name="nearbypromotecomment_paizhao">拍照</string>
+  	<string name="nearbypromotecomment_cancel">取消</string>
+  	<string name="nearbypromotecomment_picedit_title">照片编辑上传</string>
+  	<string name="promotecomment_pic_ok">确定</string>
+  	<string name="promotecomment_pic_return">返回</string>
+  	<string name="allcomment_card">用了：</string>
+  	<string name="allcomment_pay">花了：</string>
+  	<string name="allcomment_content">点评：</string>
+  	<string name="comment_success_toast">点评成功</string>
+  	<string name="comment_fail_toast">点评失败</string>
+  	<string name="allcomment_title">所有点评</string>
+  	<string name="mycomment_title">我的点评</string>
+  	<string name="allcomment_content_ellipsis">……</string>
+  	<string name="allcomment_content_more">查看更多</string>
+  	<string name="allcomment_content_retract">收起点评</string>
+  	<string name="shop_content_more">"&#160;""&#160;""&#160;""&#160;"显示全部</string>
+  	<string name="shop_content_retract">收起</string>
+  	<string name="mycomment_renjun">人均：</string>
+  	<string name="mycomment_content">点评：</string>
+  	<string name="comment_edit_limit_toast">输入字数超出限制</string>
+  	<string name="comment_hasnoconetent_toast">请填写评论内容</string>
+  	<string name="comment_hasnonickname_toast">请填写昵称</string>
+  	<string name="comment_picture_cancel_toast">您已经取消了这张图片</string>
+  	<string name="shoppingcenter_title">%1$s购物街</string>
+  	<string name="comment_nickname_default">匿名</string>
+  	<string name="metro_metroline_xian">线</string>
+  	<string name="metro_metroline_haoxian">号线</string>
+  	<string name="shoplist_isbottom">已是最后一条</string>
+  	<string name="dbupdate_hasnew_tip">数据库有更新，是否现在更新最新数据？</string>
+  	<string name="dbupdate_downloading_tip">正在下载数据库</string>
+  	<string name="dbupdate_download_finish_tip">数据更新完成！</string>
+  	<string name="dbupdate_download_conerr_tip">连接数据库失败</string>
+  	<string name="dbupdate_download_cancel_tip">您已取消更新！</string>
+  	<string name="loading_shop_tip">正在加载商铺……</string>
+  	<string name="finish_loadshop_tip">没有更多商铺数据</string>
+  	<string name="promote_find_none">找不到您所需的优惠</string>
+  	<string name="mycollect_noshop_tip">暂无收藏记录</string>
+  	<string name="latestskim_noshop_tip">暂无浏览记录</string>
+  	<string name="aboutus_current_softversion">IMVIP for android V%1$s</string>
+  	<string name="aboutus_words_2">Copyright © 2008&#8211;2011 All Rights Reserved</string>
+  	<string name="aboutus_words_3">深圳积享通 版权所有</string>
+  	<string name="aboutus_words_4">“IMVIP”是积享通众多产品中的一款，以信用卡折扣为中心展开为会员服务的手机应用软件.将信用卡与会员连成一线，更直接的为会员提供了生活服务，并加强了会员间的沟通、联系。</string>
+  	<string name="aboutus_words_5">本软件的安装使用受《积享通软件许可及服务协议》的约束。</string>
+  	<string name="aboutus_words_8">IMVIP官网网址：http://imvip.china-rewards.com</string>
+  	<string name="aboutus_words_9">客服热线：400&#8211;6688&#8211;998</string>
+  	
+  	
+    <!-- by sunny-->
+    <string name="back">返回</string>
+    <string name="nearByTitle">附近</string>
+    <string name="business_detail_title">商户详情</string>
+    <string name="sort">"&#160;""&#160;"排序</string>
+    <string name="nearby500">500米</string>
+    <string name="nearby1000">1000米</string>
+    <string name="nearby1500">1500米</string>
+    <string name="nearbybuxian">不限</string>
+    <string name="all">全部</string>
+    <string name="main_products">主要商品：</string>
+    <string name="feature">特色：</string>
+    <string name="business_hours">营业时间：</string>
+    <string name="per_consume">人均消费：</string>
+    <string name="metro_station">地铁站：</string>
+    <string name="business_photo">商户图片：</string>
+    <string name="netfriend_referral">网友推介：</string>
+    <string name="error_msg">信息报错</string>
+    <string name="error_title">IMVIP信息报错</string>
+    <string name="discount">"&#160;""&#160;""&#160;""&#160;""&#160;""&#160;""&#160;""&#160;"折扣：</string>
+    <string name="discount_des">优惠描述：</string>
+    <string name="discount_deadline">优惠时间：</string>
+    <string name="discount_prove">优惠凭证：</string>
+    <string name="up">顶</string>
+    <string name="down">踩</string>
+    <string name="comment">我要点评</string>
+    <string name="share">分    享</string>
+    <string name="zhe">折</string> 
+    <string name="sort_default">按时间排序</string>
+    <string name="sort_price">按价格排序</string>
+    <string name="sort_stars">按星级排序</string>
+    <string name="sort_comments">按点评数排序</string>
+    <string name="warm_title">温馨提示</string>
+    <string name="warm_message">如果想正常使用系统，请打开GPS服务。是否打开GPS服务</string>
+    <string name="ok">确定</string> 
+    <string name="up_down_succeed_msg">%1$s，成功！</string>
+    <string name="up_down_fail_msg">%1$s，失败！</string>
+    <string name="cannot_up_or_down">对不起，您已经在过去的24小时内顶或踩过这个优惠了，不能再顶或踩了！</string>
+    <string name="collect_fail_txt">收藏失败</string>
+    <string name="collect_succeed_txt">收藏成功</string>
+    <string name="cancel_collect_fail_txt">取消收藏失败</string>
+    <string name="cancel_collect_succeed_txt">取消收藏成功</string>
+    <string name="error_title_txt">报错类型</string>
+    <string name="error_succed_message">我们已收到您的反馈。感谢您对我们的支持，如有需要我们会通过Email与您联系！</string>
+    <string name="nearbyPromoteErrorTitle">其他错误</string>
+    <string name="nearbyPromoteErrorMsg">感谢您报告商户的错误信息，我们将回复邮件发送至您填入的邮箱中。</string>
+    <string name="error_remark_msg">请输入您的反馈意见（500字以内）</string>
+    <string name="error_email_msg">您的邮箱（选填）</string>
+    <string name="error_submit_msg">提  交</string>
+    <string name="submit_error_msg">请输入错误信息</string>
+    <string name="share_button_txt">分享</string>
+    <string name="search_msg">输入商户名、地址等</string>
+    <string name="type">类别</string>
+    <string name="hot_keywords">热门关键词：</string>
+    <string name="search_buseiness_list_title">搜索-%1$s</string>
+    <string name="search_content_empty_msg">请输入搜索内容</string>
+    <string name="new_events_title">最新活动消息</string>
+    <string name="new_events_detail_title">活动消息列表</string>
+    <string name="hot_card_title">热门卡</string>
+    <string name="comment_count">点评（共%1$s条）</string>
+    <string name="comment_button_txt">点评</string>
+    <string name="collect">收藏</string>
+    <string name="already_collect">已收藏</string>
+    <string name="search_module_advert">上缤纷网，找最优惠团购！www.binfen.cc</string>
+    <string name="nothing">无</string>
+    <string name="meter">米</string>
+    <string name="default_item">不限</string>
+    <string name="please_select_search_condition">请选择查询条件</string>
+    <string name="promote_share_text">超级优惠啦！%1$s大酬宾，下载IMVIP查看详细信息。</string>
+    <string name="other_promote">其他优惠</string>
+    <string name="network_exception">无法连接网络</string>
+    <string name="since">开始于</string>
+    <string name="until">截至</string>
+    <string name="data_loading">正在加载，请稍候</string>
+    <string name="connect_timeout">网络连接超时，请检查网络状态</string>
+    <string name="not_in_city">不在深圳市，无法查询附近优惠</string>
+	<string name="cannot_get_position">未取到当前位置，无法查询优惠信息</string>
+	<string name="get_local">正在通过GPS获取当前位置，请稍候</string>      
+	<string name="get_location_timeout">通过GPS获取位置超时，无法查询优惠</string>
+    <!-- 热门卡页面排序类型选择框value -->
+    <string-array name="sortTypeItemsValue">
+        <item>优惠数</item>
+        <!-- <item>收藏数</item> -->
+    </string-array>
+    <!-- 距离选择框value -->
+    <string-array name="distanceItemsValue">
+        <item>500米</item>
+        <item>1000米</item>
+        <item>1500米</item>
+    </string-array>
+    <!-- 信息报错类型value -->
+    <string-array name="errorTypeItemsValue">
+        <item>优惠信息错误</item>
+        <item>电话错误</item>
+        <item>地址错误</item>
+        <item>门店信息、图片错误</item>
+        <item>其他</item>
+    </string-array>
+        
+    <!-- by kandy -->
+    <string name="myCards">我的VIP卡</string>  
+    <string name="goback">返回</string> 
+    <string name="addcard">添加VIP卡</string>
+    <string name="mywalletitle">我的钱包</string> 
+    <string name="email">E-mail：</string>
+    <string name="vipname">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="city">所在地：</string>
+    <string name="changecity">切换城市</string>
+    <string name="register">我要注册</string>
+    <string name="cardstate">已丢掉</string> 
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="add_firstcard">首次使用请添加您的卡!</string> 
+    <string name="creditcard">信用卡</string>
+    <string name="airvip_card">航空VIP卡</string>
+    <string name="othercard">其他卡</string> 
+    <string name="clear_all">清空所有</string>
+    <string name="latest_skim_title">最近浏览</string>
+    <string name="clear_latest_skim_all">清空最近浏览？</string> 
+    <string name="mybizcard">我的名片</string>
+    <string name="mywallet_title">VIP卡</string>
+    <string name="add_cardfooter">您的钱包里共添加了</string>
+    <string name="add_cardcount">张VIP卡</string> 
+    <string name="finish_addcard">添加完成</string>
+    <string name="email_chs">邮"&#160;""&#160;""&#160;""&#160;"箱：</string>
+    <string name="email_zh">邮箱：</string>
+    <string name="user_password">密码：</string> 
+    <string name="feedback_title">欢迎进提出宝贵的意见和建议，您留下来的每个字都将用来改善我们的软件。</string>
+    <string name="feedback_name">姓名：</string>
+    <string name="feedback_content_warn">请输入您的反馈意见(140字以内)</string> 
+    <string name="about_us_content_main">积享通是国内的领先企业会员增值服务及忠诚度管理公司。2008年2月成立于深圳，由太和控股及一家澳大利亚投资公司联合投资 。短短3年时间，公司现已发展壮大在上海、广州、北京设立分公司，企业产品也丰富多样。</string> 
+    <string name="imvip_introduce">"IMVIP"是积享通众多产品中的一款，以信用卡折扣为中心展开为会员服务的手机应用软件。将信用卡与会员连成一线更直接的为会员提供了生活服务，并加强了会员之间的沟通、联系。</string>
+    <string name="company_website">www.china-rewards.com</string>
+    <string name="current_softversion">当前版本号：V%1$s</string>
+    <string name="feedback">反馈</string>
+    <string name="feedback_email_title">IMVIP反馈</string>
+    <string name="company_main">深圳积享通信息技术有限公司</string>
+    <string name="company_site">深圳总部</string>
+    <string name="company_site_shanghai">上海分部</string>
+    <string name="shanghai_address">上海市复兴中路1号申能国际大厦1408-09</string>
+    <string name="shanghai_tel">电话：</string> 
+    <string name="shanghai_telnum">021-68866000</string>
+    <string name="shanghai_faxnum">021-68866007</string>
+    <string name="company_zhuhai">珠海分部</string>
+    <string name="zhuhai_address">广东省珠海市香洲区人民东路313号恒和中心1栋612</string>
+    <string name="zhuhai_tel">0756-2771607</string>
+    <string name="hotline_jixiangtong">客服热线：400-6688-998</string>
+    <string name="company_address">地址：</string>
+    <string name="company_address_content">广东省深圳市福田区福华路322号文蔚大厦二十一层</string>
+    <string name="select_allpromote">选择所有的优惠</string>
+    <string name="delete_selected">删除所选</string>
+    <string name="deletewarn">您没有选中任何优惠项！</string>
+    <string name="city_post">邮编：</string>
+    <string name="city_post_number">518045</string>
+    <string name="phone_main">总机：</string>
+    <string name="phone_number">0755-86271268</string>
+    <string name="fax">传真：</string>
+    <string name="fax_number">0755-86271610</string>
+    <string name="about_us">关于我们</string>
+    <string name="contact_us">联系我们</string>
+    <string name="check_item_alert">请选择您要删除的优惠项</string>
+    <string name="feedback_name_not_null">请输入姓名</string>
+    <string name="feedback_email_not_null">请输入邮箱</string>
+    <string name="feedback_email_format">邮箱格式输入有误，请检查</string>
+    <string name="feedback_content_not_null">请输入反馈意见</string>
+   
+   <string name="close">Close</string>
+    <string name="warntext">Skip this next time</string>
+      <string-array name="test">
+          <item>记住我的选择</item>
+      </string-array>
+      <string name="sharesoft">分享IMVIP</string>
+      <string name="mywallet_collection">收藏优惠</string>
+      <string name="sharetest">我在用IMVIP手机软件，随时随地查找信用卡、VIP卡优惠。吃喝玩乐购你就是VIP！下载链接：imvip.china-rewards.com</string>
+      <string name="feedbacksuccess">反馈成功，我们会即时处理。</string>
+      <string name="feedbackfailure">抱歉，您的反馈提交可能由于网络不稳定，提交失败，请稍后再试。</string>
+      <string name="feedbackcontent">你们做的很好，我没什么要补充的了，呼呼。。。</string>
+      <string name="clear_collect_item">删除%1$s条收藏？</string>
+      <string name="mybizcard_edit">编辑</string>
+      <string name="mybizcard_edit_title">名片编辑</string> 
+      <string name="costinall">共花了</string>
+      <string name="costsave">,节省</string>
+      <string name="deletecollect_success">成功删除所选收藏！</string> 
+      <string name="card_delete">-</string>
+      <string name="delete">删除</string>
+      <string name="updatemybizcard_success">修改名片成功！</string>
+       <string name="updatemybizcard_fail">修改名片失败！</string>
+       <string name="updatemybizcard_cancel">取消修改</string>
+       <string name="collectpromote">收藏优惠</string>
+       <string name="latestactivity">最新活动信息</string>
+      <!--  <string-array name="moretexts">
+           <item>玩转ICARD</item>
+           <item>反馈</item>
+           <item>关于我们</item>
+           <item>联系我们</item>
+           <item>分享本软件</item> 
+       </string-array> -->
+       <string name="playall">玩转IMVIP</string>
+       <string name="feedbackmore">反馈</string>
+       <string name="aboutus">关于我们</string>
+       <string name="contactus">联系我们</string>
+       <string name="sharesoftmore">分享本软件</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_module_bg"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/coverFlowLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:background="@drawable/coverflow_bg" >
+		
+        <TextView
+            android:id="@+id/cardTitleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black" 
+            android:layout_marginBottom="5dp"/>:
+            
+        <cc.binfen.android.customview.CoverFlowView
+            android:id="@+id/coverFlowView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dip"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dip" >
+
+            <TextView
+                android:id="@+id/nearByTxt"
+                style="@style/main_button_text"
+                android:drawableTop="@drawable/main_near"
+                android:text="@string/nearby" />
+
+            <TextView
+                android:id="@+id/cardTxt"
+                style="@style/main_button_text"
+                android:drawableTop="@drawable/main_card"
+                android:text="@string/card" />
+
+            <TextView
+                android:id="@+id/hotCardTxt"
+                style="@style/main_button_text"
+                android:drawableTop="@drawable/main_hot_card"
+                android:text="@string/hotcard" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dip" >
+
+            <TextView
+                android:id="@+id/shoppingStreetTxt"
+                style="@style/main_button_text"
+                android:drawableTop="@drawable/main_street"
+                android:text="@string/shoppingstreet" />
+
+            <TextView
+                android:id="@+id/zoneTxt"
+                style="@style/main_button_text"
+                android:drawableTop="@drawable/main_zone"
+                android:text="@string/zone" />
+
+            <TextView
+                android:id="@+id/metroTxt"
+                style="@style/main_button_text"
+                android:drawableTop="@drawable/main_metro"
+                android:text="@string/metro" />
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+
+    </ScrollView>
+    
+    
+ <!--    <TextView android:id="@+id/mainAdvertTxt"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="8dp"
+    	android:paddingBottom="8dp"
+    	android:gravity="center"
+    	android:background="@color/newEvents_advert_bgcolor"
+    	android:textColor="@color/newEvents_advert_txtColor"
+    	android:textSize="12sp"/> -->
+
+</LinearLayout>
